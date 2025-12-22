@@ -224,11 +224,16 @@ func (a *Analyzer) buildTracks(components map[string][]string, actionableSet map
 	for _, root := range roots {
 		members := components[root]
 
-		// Filter to actionable issues only
+		// Filter to actionable issues only, excluding epics
+		// (epics can't be worked on directly; they auto-close when all children complete)
 		var actionableMembers []model.Issue
 		for _, id := range members {
 			if actionableSet[id] {
-				actionableMembers = append(actionableMembers, a.issueMap[id])
+				issue := a.issueMap[id]
+				if issue.IssueType == model.TypeEpic {
+					continue
+				}
+				actionableMembers = append(actionableMembers, issue)
 			}
 		}
 
