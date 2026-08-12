@@ -54,3 +54,7 @@
 # - github.org
 # - github.repo
 # - sync.branch - Git branch for beads commits (use BEADS_SYNC_BRANCH env var or bd config set)
+
+# w28: bd background daemon disabled fleet-wide (see context/entities/bdc.md)
+no-daemon: true
+auto-start-daemon: false
