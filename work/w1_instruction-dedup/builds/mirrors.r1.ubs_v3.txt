@@ -1,0 +1,2 @@
+ℹ Ignoring paths from /home/ben/worktrees/beads_viewer/w1_instruction-dedup/.ubsignore → beads_reference
+✓ No changed files to scan.

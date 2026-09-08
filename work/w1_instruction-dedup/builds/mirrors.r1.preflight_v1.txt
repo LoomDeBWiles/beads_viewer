@@ -1,0 +1,17 @@
+scope=/home/ben/projects/tools/beads_viewer
+mapped_scope=/home/ben/worktrees/beads_viewer/w1_instruction-dedup
+operation=copy approved CLAUDE.md
+c86fd60b8793e61c2ab36e6493bf4de5636205f7368a441cfe4cc562daf205d7  AGENTS.md
+41eb3ec376a8d78338ee45f10effdfbe8019c5bb0189550c9a0a25b6a2e05430  /home/ben/worktrees/shared-docs/w903_instruction-dedup/work/w903_instruction-dedup/reconciled_v2/proposed/tools/beads_viewer/CLAUDE.md
+PASS source_sha256
+PASS proposal_sha256
+PASS expected-new CLAUDE.md absent
+41eb3ec376a8d78338ee45f10effdfbe8019c5bb0189550c9a0a25b6a2e05430  CLAUDE.md
+PASS copied exact proposal bytes
+operation=trash replaced regular્ં AGENTS.md before symlink
+c86fd60b8793e61c2ab36e6493bf4de5636205f7368a441cfe4cc562daf205d7  AGENTS.md
+PASS before_sha256 immediately before trash
+trashed[1]{orig=/home/ben/worktrees/beads_viewer/w1_instruction-dedup/AGENTS.md}: /home/ben/.local/share/agent-trash/beads_viewer/20260908T052026Z-3437527/home/ben/worktrees/beads_viewer/w1_instruction-dedup/AGENTS.md
+batch: /home/ben/.local/share/agent-trash/beads_viewer/20260908T052026Z-3437527
+help: restore with: mv -T /home/ben/.local/share/agent-trash/beads_viewer/20260908T052026Z-3437527/home/ben/worktrees/beads_viewer/w1_instruction-dedup/AGENTS.md /home/ben/worktrees/beads_viewer/w1_instruction-dedup/AGENTS.md
+PASS old AGENTS.md absent after trash

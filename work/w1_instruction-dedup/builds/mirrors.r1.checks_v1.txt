@@ -1,0 +1,12 @@
+scoped approved entries: 2
+scoped mirror entries: 1
+scoped preserve obligations: 0
+scoped trash-before-symlink obligations: 1
+PASS approved-text (3 obligations checked; actions: symlink=1, write=1; before_actions=1; candidate mapping=yes)
+PASS mirrors (1 named symlink actions checked; candidate mapping=yes)
+PASS CLAUDE.md byte-identical to named proposal
+41eb3ec376a8d78338ee45f10effdfbe8019c5bb0189550c9a0a25b6a2e05430  CLAUDE.md
+41eb3ec376a8d78338ee45f10effdfbe8019c5bb0189550c9a0a25b6a2e05430  AGENTS.md
+PASS relative mirror resolves inside worker root
+PASS primary checkout source remains unchanged
+SKIP .worktree-check: absent in repository
