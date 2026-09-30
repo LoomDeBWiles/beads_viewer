@@ -1,6 +1,0 @@
-operation=create AGENTS.md relative symlink
-41eb3ec376a8d78338ee45f10effdfbe8019c5bb0189550c9a0a25b6a2e05430  CLAUDE.md
-PASS CLAUDE.md after_sha256 immediately before symlink
-PASS AGENTS.md absent immediately before symlink
-PASS AGENTS.md symlink target=CLAUDE.md
-PASS AGENTS.md resolves to approved CLAUDE.md bytes
